@@ -7,7 +7,15 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <motion.div initial={{ opacity: -1 }} animate={{ opacity: 1 }}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          delay: 0.5,
+          x: { duration: 1 },
+          default: { ease: "linear" },
+        }}
+      >
         <Header />
         <Main />
       </motion.div>
