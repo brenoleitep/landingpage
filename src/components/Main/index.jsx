@@ -60,7 +60,7 @@ const Main = () => {
             reprehenderit eius nulla.
           </p>
 
-          <StyledCourse data-aos="fade-up">
+          <StyledCourse data-aos="fade-right">
             <FaGraduationCap />
 
             <StyledCourses>
@@ -73,7 +73,7 @@ const Main = () => {
             </StyledCourses>
           </StyledCourse>
 
-          <StyledCourse data-aos="fade-up">
+          <StyledCourse data-aos="fade-left">
             <FaGraduationCap />
 
             <StyledCourses>
@@ -86,7 +86,7 @@ const Main = () => {
             </StyledCourses>
           </StyledCourse>
 
-          <StyledCourse data-aos="fade-up">
+          <StyledCourse data-aos="fade-left">
             <FaGraduationCap />
 
             <StyledCourses>
