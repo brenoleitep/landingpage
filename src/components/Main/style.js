@@ -75,7 +75,7 @@ export const StyledDivMain = styled.div`
 export const StyledDivCourse = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 
     h2 {
         font-family: 'Fredoka One', sans-serif;
@@ -103,7 +103,7 @@ export const StyledCourse = styled.div`
         svg {
             display: flex;
             align-items: center;
-            background-color: #0B1F3B;
+            background-color:#4BC3CC;
             padding: 10px;
             border-radius: 8px;
             width: 40%;

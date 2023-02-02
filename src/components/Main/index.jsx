@@ -61,7 +61,11 @@ const Main = () => {
           </p>
 
           <StyledCourse data-aos="fade-right">
-            <FaGraduationCap />
+            <FaGraduationCap
+              style={{
+                backgroundColor: "#4BC3CC",
+              }}
+            />
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
@@ -74,7 +78,11 @@ const Main = () => {
           </StyledCourse>
 
           <StyledCourse data-aos="fade-left">
-            <FaGraduationCap />
+            <FaGraduationCap
+              style={{
+                backgroundColor: "#2C7AED",
+              }}
+            />
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
@@ -87,7 +95,11 @@ const Main = () => {
           </StyledCourse>
 
           <StyledCourse data-aos="fade-left">
-            <FaGraduationCap />
+            <FaGraduationCap
+              style={{
+                backgroundColor: "#4BC3CC",
+              }}
+            />
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
@@ -100,7 +112,11 @@ const Main = () => {
           </StyledCourse>
 
           <StyledCourse data-aos="fade-right">
-            <FaGraduationCap />
+            <FaGraduationCap
+              style={{
+                backgroundColor: "#2C7AED",
+              }}
+            />
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
