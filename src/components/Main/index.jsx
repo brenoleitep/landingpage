@@ -1,6 +1,17 @@
 import mac from "../../assets/mac.jpeg";
-import { StyledDiv, StyledDivMain, StyledMain } from "./style";
+import {
+  StyledCourse,
+  StyledCourses,
+  StyledDiv,
+  StyledDivCourse,
+  StyledDivMain,
+  StyledMain,
+} from "./style";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import { AiOutlineMinus } from "react-icons/ai";
+import { FaGraduationCap } from "react-icons/fa";
+import "aos/dist/aos.css";
 
 const Main = () => {
   return (
@@ -14,11 +25,11 @@ const Main = () => {
           default: { ease: "easeIn" },
         }}
       >
-        <StyledDiv>
+        <StyledDiv data-aos="fade-up">
           <img src={mac} alt="Macbook" />
         </StyledDiv>
 
-        <StyledDivMain>
+        <StyledDivMain data-aos="fade-up">
           <h2>Bem vindo ao Shape.</h2>
 
           <h1>
@@ -34,6 +45,73 @@ const Main = () => {
 
           <button>Saiba mais</button>
         </StyledDivMain>
+
+        <AiOutlineMinus color="#4BC3CC" fontSize={"70px"} />
+
+        <StyledDivCourse data-aos="fade-up">
+          <h2>
+            Melhores oportunidades de <br /> negócios para você
+          </h2>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            atque, nisi alias laudantium veritatis illum numquam autem eligendi
+            ipsum? Inventore quod nostrum, similique omnis at nam aspernatur
+            reprehenderit eius nulla.
+          </p>
+
+          <StyledCourse>
+            <FaGraduationCap />
+
+            <StyledCourses>
+              <h2>Cursos Profissionais</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam animi tempore veniam illum adipisci provident esse
+                atque?
+              </p>
+            </StyledCourses>
+          </StyledCourse>
+
+          <StyledCourse>
+            <FaGraduationCap />
+
+            <StyledCourses>
+              <h2>Cursos Profissionais</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam animi tempore veniam illum adipisci provident esse
+                atque?
+              </p>
+            </StyledCourses>
+          </StyledCourse>
+
+          <StyledCourse>
+            <FaGraduationCap />
+
+            <StyledCourses>
+              <h2>Cursos Profissionais</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam animi tempore veniam illum adipisci provident esse
+                atque?
+              </p>
+            </StyledCourses>
+          </StyledCourse>
+
+          <StyledCourse>
+            <FaGraduationCap />
+
+            <StyledCourses>
+              <h2>Cursos Profissionais</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam animi tempore veniam illum adipisci provident esse
+                atque?
+              </p>
+            </StyledCourses>
+          </StyledCourse>
+        </StyledDivCourse>
       </motion.div>
     </StyledMain>
   );

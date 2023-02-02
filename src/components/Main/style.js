@@ -62,7 +62,7 @@ export const StyledDivMain = styled.div`
         height: 48px;
         width: 100%;
         max-width: 500px;
-        background-color: #2C7AED;
+        background-color: #4BC3CC;
         border: none;
         border-radius: 8px;
         color: white;
@@ -70,6 +70,58 @@ export const StyledDivMain = styled.div`
         font-weight: 200;
         font-size: 14px;
     }
+`
 
+export const StyledDivCourse = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+    h2 {
+        font-family: 'Fredoka One', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        color: #0B1F3B
+    }
+
+    p {
+        width: 100%;
+        text-align: justify;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+`
+
+export const StyledCourse = styled.div`
+  
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        svg {
+            display: flex;
+            align-items: center;
+            background-color: #0B1F3B;
+            padding: 10px;
+            border-radius: 8px;
+            width: 40%;
+            font-size: 60px;
+            color: white;
+        }
+`
+
+export const StyledCourses = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    p {
+                width: 100%;
+                text-align: justify;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 200;
+                word-wrap: break-word;
+            }   
 `
