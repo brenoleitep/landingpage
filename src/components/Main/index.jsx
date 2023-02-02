@@ -99,7 +99,7 @@ const Main = () => {
             </StyledCourses>
           </StyledCourse>
 
-          <StyledCourse data-aos="fade-down">
+          <StyledCourse data-aos="fade-right">
             <FaGraduationCap />
 
             <StyledCourses>
