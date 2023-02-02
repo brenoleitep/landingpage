@@ -10,7 +10,13 @@ const Sidebar = ({ active }) => {
     <Container sidebar={active}>
       <FaTimes onClick={closeSidebar} />
 
-      <Content></Content>
+      <Content>
+        <a href="youtube.com">Links aleatórios</a>
+        <a href="youtube.com">Links aleatórios</a>
+        <a href="youtube.com">Links aleatórios</a>
+        <a href="youtube.com">Links aleatórios</a>
+        <a href="youtube.com">Links aleatórios</a>
+      </Content>
     </Container>
   );
 };

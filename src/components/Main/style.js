@@ -30,7 +30,8 @@ export const StyledDivMain = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 15px;
+    margin-top: 30px;
+
 
     @media (min-width: 375px){
             gap: 20px;
