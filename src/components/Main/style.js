@@ -10,7 +10,7 @@ export const StyledDiv = styled.div`
     
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 30px;
 
       img {
         width: 100%;
@@ -29,7 +29,7 @@ export const StyledDiv = styled.div`
 export const StyledDivMain = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     margin-top: 15px;
 
     @media (min-width: 375px){
@@ -75,11 +75,11 @@ export const StyledDivMain = styled.div`
 export const StyledDivCourse = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 
     h2 {
         font-family: 'Fredoka One', sans-serif;
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 400;
         color: #0B1F3B
     }
