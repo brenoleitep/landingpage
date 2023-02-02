@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <StyledHeader>
-        <h2>Transit</h2>
+        <h2>Brene</h2>
 
         <div>
           <h3>Menu</h3>
