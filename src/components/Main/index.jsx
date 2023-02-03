@@ -1,4 +1,6 @@
 import mac from "../../assets/mac.jpeg";
+import ilustration from "../../assets/ilustration.svg";
+import rectangle from "../../assets/rectangle.svg";
 import {
   StyledCourse,
   StyledCourses,
@@ -44,14 +46,14 @@ const Main = () => {
           </p>
 
           <button>Saiba mais</button>
+
+          <img src={rectangle} alt="" />
         </StyledDivMain>
 
-        <AiOutlineMinus color="#4BC3CC" fontSize={"70px"} />
-
         <StyledDivCourse data-aos="fade-up">
-          <h2>
+          <h3>
             Melhores oportunidades de <br /> negócios para você
-          </h2>
+          </h3>
 
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
@@ -69,6 +71,7 @@ const Main = () => {
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
+              <img src={rectangle} alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquam animi tempore veniam illum adipisci provident esse
@@ -86,6 +89,7 @@ const Main = () => {
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
+              <img src={rectangle} alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquam animi tempore veniam illum adipisci provident esse
@@ -103,6 +107,7 @@ const Main = () => {
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
+              <img src={rectangle} alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquam animi tempore veniam illum adipisci provident esse
@@ -120,6 +125,7 @@ const Main = () => {
 
             <StyledCourses>
               <h2>Cursos Profissionais</h2>
+              <img src={rectangle} alt="" />
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquam animi tempore veniam illum adipisci provident esse
@@ -127,6 +133,7 @@ const Main = () => {
               </p>
             </StyledCourses>
           </StyledCourse>
+          <img src={ilustration} alt="Ilustration" data-aos="fade-up" />
         </StyledDivCourse>
       </motion.div>
     </StyledMain>
