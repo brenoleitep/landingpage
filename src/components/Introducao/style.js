@@ -3,7 +3,6 @@ import background from "../../assets/background.svg";
 
 export const StyledDiv = styled.div`
   display: flex;
-  justify-content: center;
   position: relative;
   align-items: center;
   flex-direction: column;
@@ -12,21 +11,21 @@ export const StyledDiv = styled.div`
   height: 95vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  gap: 46px;
+  gap: 64px;
 
   button {
     width: 90%;
     height: 47px;
     border-radius: 14px;
     max-width: 300px;
-    background-color: #38a3f1;
+    background-color: #000211;
     outline: none;
     border: none;
     box-shadow: 0px 0px 6px 1px white;
-    color: #000211;
-    font-weight: 600;
+    color: white;
+    font-weight: lighter;
     font-size: 16px;
-    letter-spacing: 0.5px;
+    z-index: 10;
   }
 `;
 
@@ -37,6 +36,7 @@ export const StyledDivTitles = styled.div`
   gap: 20px;
   text-align: center;
   z-index: 10;
+  margin-top: 80px;
 
   h1 {
     font-size: 28px;
@@ -52,8 +52,17 @@ export const StyledDivTitles = styled.div`
 export const StyledLottie = styled.div`
   display: flex;
   position: absolute;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  bottom: 10px;
+  z-index: 0;
+`;
+export const StyledLotties = styled.div`
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  justify-content: flex-end;
+  top: 20px;
   z-index: 0;
 `;
 
