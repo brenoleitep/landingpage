@@ -1,5 +1,5 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Introducao from "./components/Introducao";
+
 import { GlobalStyle } from "./styles/globalStyles";
 
 function App() {
@@ -7,9 +7,7 @@ function App() {
     <>
       <GlobalStyle />
 
-      <Header />
-      <Main />
-      <Main />
+      <Introducao />
     </>
   );
 }
