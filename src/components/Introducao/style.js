@@ -9,10 +9,10 @@ export const StyledDiv = styled.div`
   flex-direction: column;
   background-image: url(${background});
   color: white;
-  height: 100vh;
+  height: 95vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  gap: 128px;
+  gap: 46px;
 
   button {
     width: 90%;
@@ -23,10 +23,10 @@ export const StyledDiv = styled.div`
     outline: none;
     border: none;
     box-shadow: 0px 0px 6px 1px white;
-    color: white;
-    font-weight: 400;
+    color: #000211;
+    font-weight: 600;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
   }
 `;
 
@@ -45,7 +45,7 @@ export const StyledDivTitles = styled.div`
 
   h2 {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: lighter;
   }
 `;
 

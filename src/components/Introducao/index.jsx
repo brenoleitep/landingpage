@@ -7,7 +7,6 @@ import {
   StyledDiv,
   StyledDivTitles,
   StyledLottie,
-  StyledLotties,
   StyledYoutube,
 } from "./style";
 import youtube from "../../assets/youtube.jpg";
@@ -30,8 +29,9 @@ const Introducao = () => {
           </h1>
 
           <h2>
-            O protocolo que vai te fazer vender todos os dias. <br /> Mesmo que
-            você não saiba nada do digital.
+            Tenha acesso ao PROTOCOLO que vai fazer com que você venda todos os
+            dias. Mesmo que você não saiba nada do digital, o PPL vai te ensinar
+            o que é preciso para vender o seu produto digital!
           </h2>
         </StyledDivTitles>
         <StyledLottie>
