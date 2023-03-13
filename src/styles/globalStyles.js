@@ -19,6 +19,7 @@ time, mark, audio, video {
 	border: 0;
 	box-sizing: border-box;
 	vertical-align: baseline;
+	font-family: 'Montserrat', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

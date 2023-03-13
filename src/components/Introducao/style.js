@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import background from "../../assets/background.svg";
 
 export const StyledDiv = styled.div`
@@ -8,7 +8,7 @@ export const StyledDiv = styled.div`
   flex-direction: column;
   background-image: url(${background});
   color: white;
-  height: 95vh;
+  height: 94vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   gap: 64px;
@@ -26,6 +26,7 @@ export const StyledDiv = styled.div`
     font-weight: lighter;
     font-size: 16px;
     z-index: 10;
+    margin-top: 40px;
   }
 `;
 
@@ -54,7 +55,7 @@ export const StyledLottie = styled.div`
   position: absolute;
   align-items: flex-end;
   justify-content: flex-end;
-  bottom: 10px;
+  bottom: 1px;
   z-index: 0;
 `;
 export const StyledLotties = styled.div`
@@ -62,7 +63,7 @@ export const StyledLotties = styled.div`
   position: absolute;
   align-items: flex-end;
   justify-content: flex-end;
-  top: 20px;
+  top: 10px;
   z-index: 0;
 `;
 
@@ -77,4 +78,8 @@ export const StyledYoutube = styled.div`
     width: 90%;
     border-radius: 20px;
   }
+`;
+
+export const TypingText = styled.span`
+  display: inline-block;
 `;
