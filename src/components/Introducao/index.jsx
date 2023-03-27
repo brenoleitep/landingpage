@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import astronaut from "../Lotties/asteroid.json";
 import planets from "../Lotties/planets.json";
 import {
+  LogoFixed,
   StyledDiv,
   StyledDivTitles,
   StyledLogo,
@@ -16,7 +17,6 @@ import {
 import youtube from "../../assets/youtube.jpg";
 import logo from "../../assets/logo.png";
 import Texts from "../Texts";
-import { StyledMain } from "../../styles/main";
 
 const Introducao = () => {
   // const text = "Olá, seja bem-vindo ao PPL";

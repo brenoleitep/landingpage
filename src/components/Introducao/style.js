@@ -96,3 +96,21 @@ export const StyledYoutube = styled.div`
 export const TypingText = styled.span`
   display: inline-block;
 `;
+
+export const LogoFixed = styled.div`
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 10px;
+
+  img {
+    width: 150px;
+    height: 75px;
+  }
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+`;
