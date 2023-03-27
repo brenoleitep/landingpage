@@ -61,7 +61,7 @@ export const StyledLottie = styled.div`
   bottom: -40px;
   z-index: 0;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1080px) {
     display: none;
   }
 `;
@@ -83,6 +83,10 @@ export const StyledLotties = styled.div`
   width: 50%;
   right: 0px;
   height: 100%;
+
+  @media (max-width: 1080px) {
+    display: none;
+  }
 `;
 
 export const StyledYoutube = styled.div`
