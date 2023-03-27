@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "aos/dist/aos.css";
 import Carrossel from "../Carrossel";
 import { StyledDepoimentos } from "./style";
+import { StyledMain } from "../../styles/main";
 
 const Depoimentos = () => {
   return (
@@ -15,10 +16,12 @@ const Depoimentos = () => {
         default: { ease: "easeIn" },
       }}
     >
-      <StyledDepoimentos>
-        <h1 data-aos="fade-up">Depoimentos</h1>
-        <Carrossel />
-      </StyledDepoimentos>
+      <StyledMain>
+        <StyledDepoimentos>
+          <h2 data-aos="fade-up">DEPOIMENTOS</h2>
+          <Carrossel />
+        </StyledDepoimentos>
+      </StyledMain>
     </motion.div>
   );
 };

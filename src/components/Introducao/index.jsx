@@ -1,23 +1,27 @@
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
-import astronaut from "../Lotties/space.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import astronaut from "../Lotties/asteroid.json";
+import planets from "../Lotties/planets.json";
 import {
   StyledDiv,
   StyledDivTitles,
+  StyledLogo,
   StyledLottie,
+  StyledLotties,
   StyledYoutube,
   TypingText,
 } from "./style";
 import youtube from "../../assets/youtube.jpg";
+import logo from "../../assets/logo.png";
 import Texts from "../Texts";
+import { StyledMain } from "../../styles/main";
 
 const Introducao = () => {
-  const text = "Olá, seja bem-vindo ao PPL";
-  const text2 =
-    "Aqui você vai ter acesso ao PROTOCOLO que vai fazer com que você venda todos os dias. Mesmo que você não saiba nada do digital, o PPL vai te ensinar o que é preciso para vender o seu produto digital!";
-  const typingText = Texts(text);
+  // const text = "Olá, seja bem-vindo ao PPL";
+  const text2 = "Tenha acesso ao PROTOCOLO";
+  // const typingText = Texts(text);
   const typingText2 = Texts(text2);
 
   return (
@@ -25,33 +29,48 @@ const Introducao = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{
-        delay: 0.2,
+        delay: 0.4,
         x: { duration: 0.2 },
         default: { ease: "easeIn" },
       }}
     >
       <StyledDiv>
-        <StyledDivTitles>
-          <h1 data-aos="fade-up">
-            <TypingText>{typingText}</TypingText>
-          </h1>
-          <h2 data-aos="fade-up">
-            <TypingText>{typingText2}</TypingText>
-          </h2>
-        </StyledDivTitles>
+        <StyledMain>
+          <StyledDivTitles>
+            <StyledLogo>
+              <img src={logo} alt="PPL" />
+            </StyledLogo>
 
-        <StyledYoutube data-aos="fade-down">
-          <img src={youtube} alt="" />
-        </StyledYoutube>
+            {/* <StyledLotties>
+              <Lottie animationData={astronaut} />
+            </StyledLotties> */}
 
-        <button data-aos="fade-up-right">EU QUERO TER ACESSO AO PPL</button>
+            <h2 data-aos="fade-up">
+              Tenha acesso ao PROTOCOLO <br /> que vai fazer com que você <br />{" "}
+              mesmo que não saiba nada do <br /> digital, venda todos os dias e{" "}
+              <br /> tenha explosões de <br /> faturamento toda semana, <br />{" "}
+              sem precisar contratar equipe <br />
+              nem trabalhar mais por isso.
+            </h2>
 
-        <StyledLottie data-aos="fade-down">
-          <Lottie animationData={astronaut} />
-        </StyledLottie>
-        {/* <StyledLotties>
-          <Lottie animationData={rocket} />
-        </StyledLotties> */}
+            <StyledYoutube data-aos="fade-down">
+              <img src={youtube} alt="Youtube" />
+            </StyledYoutube>
+
+            <h3>
+              O PPL vai te ensinar apenas o que ele precisa para vender seu
+              produto <br /> digital, sem enrolação, mesmo que você tenha outra
+              ocupação, e <br /> realizar o seu sonho de viver apenas do digital
+              e ter uma vida com mais liberdade.
+            </h3>
+
+            <button>EU QUERO TER ACESSO AO PPL</button>
+          </StyledDivTitles>
+
+          <StyledLottie>
+            <Lottie animationData={planets} />
+          </StyledLottie>
+        </StyledMain>
       </StyledDiv>
     </motion.div>
   );

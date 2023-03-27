@@ -19,8 +19,10 @@ time, mark, audio, video {
 	border: 0;
 	box-sizing: border-box;
 	vertical-align: baseline;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Inter", sans-serif;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -28,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: linear-gradient(#000212, #030012, #09061e);
 }
 ol, ul {
 	list-style: none;
