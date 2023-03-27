@@ -35,42 +35,40 @@ const Introducao = () => {
       }}
     >
       <StyledDiv>
-        <StyledMain>
-          <StyledDivTitles>
-            <StyledLogo>
-              <img src={logo} alt="PPL" />
-            </StyledLogo>
+        <StyledDivTitles>
+          <StyledLogo>
+            <img src={logo} alt="PPL" />
+          </StyledLogo>
 
-            {/* <StyledLotties>
+          {/* <StyledLotties>
               <Lottie animationData={astronaut} />
             </StyledLotties> */}
 
-            <h2 data-aos="fade-up">
-              Tenha acesso ao PROTOCOLO <br /> que vai fazer com que você <br />{" "}
-              mesmo que não saiba nada do <br /> digital, venda todos os dias e{" "}
-              <br /> tenha explosões de <br /> faturamento toda semana, <br />{" "}
-              sem precisar contratar equipe <br />
-              nem trabalhar mais por isso.
-            </h2>
+          <h2 data-aos="fade-up">
+            Tenha acesso ao PROTOCOLO <br /> que vai fazer com que você <br />{" "}
+            mesmo que não saiba nada do <br /> digital, venda todos os dias e{" "}
+            <br /> tenha explosões de <br /> faturamento toda semana, <br /> sem
+            precisar contratar equipe <br />
+            nem trabalhar mais por isso.
+          </h2>
 
-            <StyledYoutube data-aos="fade-down">
-              <img src={youtube} alt="Youtube" />
-            </StyledYoutube>
+          <StyledYoutube data-aos="fade-down">
+            <img src={youtube} alt="Youtube" />
+          </StyledYoutube>
 
-            <h3>
-              O PPL vai te ensinar apenas o que ele precisa para vender seu
-              produto <br /> digital, sem enrolação, mesmo que você tenha outra
-              ocupação, e <br /> realizar o seu sonho de viver apenas do digital
-              e ter uma vida com mais liberdade.
-            </h3>
+          <h3>
+            O PPL vai te ensinar apenas o que ele precisa para vender seu
+            produto <br /> digital, sem enrolação, mesmo que você tenha outra
+            ocupação, e <br /> realizar o seu sonho de viver apenas do digital e
+            ter uma vida com mais liberdade.
+          </h3>
 
-            <button>EU QUERO TER ACESSO AO PPL</button>
-          </StyledDivTitles>
+          <button>EU QUERO TER ACESSO AO PPL</button>
+        </StyledDivTitles>
 
-          <StyledLottie>
-            <Lottie animationData={planets} />
-          </StyledLottie>
-        </StyledMain>
+        <StyledLottie>
+          <Lottie animationData={planets} />
+        </StyledLottie>
       </StyledDiv>
     </motion.div>
   );

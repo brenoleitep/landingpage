@@ -16,12 +16,10 @@ const Depoimentos = () => {
         default: { ease: "easeIn" },
       }}
     >
-      <StyledMain>
-        <StyledDepoimentos>
-          <h2 data-aos="fade-up">DEPOIMENTOS</h2>
-          <Carrossel />
-        </StyledDepoimentos>
-      </StyledMain>
+      <StyledDepoimentos>
+        <h2 data-aos="fade-up">DEPOIMENTOS</h2>
+        <Carrossel />
+      </StyledDepoimentos>
     </motion.div>
   );
 };

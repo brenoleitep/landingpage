@@ -4,8 +4,7 @@ import background from "../../assets/background.png";
 export const StyledPassaporteDiv = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100vw;
+  /* justify-content: center; */
 
   @media (min-width: 720px) {
     flex-direction: row;

@@ -9,11 +9,13 @@ import { StyledMain } from "./styles/main";
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <Introducao />
-      <Depoimentos />
-      <Passaporte />
-      {/* <Metodos /> */}
+      <StyledMain>
+        <GlobalStyle />
+        <Introducao />
+        <Depoimentos />
+        <Passaporte />
+        <Metodos />
+      </StyledMain>
     </>
   );
 }

@@ -6,14 +6,13 @@ export const StyledDepoimentos = styled.div`
   flex-direction: column;
   text-align: center;
   gap: 36px;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #0046c7;
-  /* height: 80vh; */
 
   div {
     display: flex;
     width: 100%;
-    margin: 0 auto;
+    min-height: 100vh;
   }
 
   img {
