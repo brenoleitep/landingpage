@@ -1,6 +1,6 @@
 import { StyledMain } from "../../styles/main";
 import { StyledDivPass, StyledLottiePass, StyledPassaporteDiv } from "./style";
-import astronaut from "../Lotties/cupom.json";
+import astronaut from "../Lotties/laptop3.json";
 import Lottie from "lottie-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,7 +20,7 @@ const Passaporte = () => {
     >
       <StyledPassaporteDiv>
         <StyledDivPass>
-          <h2 data-aos="fade-in">
+          <h2 data-aos="fade-up">
             O PASSAPORTE QUE VAI FAZER VOCÊ VIVER DE UMA VEZ POR TODAS DO
             MERCADO DIGITAL
           </h2>
@@ -54,7 +54,7 @@ const Passaporte = () => {
           </p>
         </StyledDivPass>
         <StyledLottiePass>
-          {/* <Lottie animationData={astronaut} data-aos="fade-in" /> */}
+          <Lottie animationData={astronaut} data-aos="fade-in" />
         </StyledLottiePass>
       </StyledPassaporteDiv>
     </motion.div>

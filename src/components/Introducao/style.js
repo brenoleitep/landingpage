@@ -6,36 +6,29 @@ export const StyledDiv = styled.div`
   position: relative;
   align-items: flex-start;
   flex-direction: column;
-  /* background: #000211; */
-  /* background: url(${background}); */
-  /* background-position: top; */
   color: white;
-  height: 110vh;
-  /* width: 100vw; */
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  gap: 36px;
+  min-height: 100vh;
 
   button {
-    width: 90%;
-    height: 47px;
+    width: 100%;
+    max-width: 440px;
+    height: 64px;
     border-radius: 14px;
-    max-width: 300px;
     background-color: #0046c7;
     outline: none;
     border: none;
     color: white;
-    font-weight: lighter;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 24px;
     z-index: 10;
-    // margin-top: 10px;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 0px;
     color: #ffffff;
     font-weight: 700;
+    text-align: justify;
   }
 `;
 
@@ -43,16 +36,20 @@ export const StyledDivTitles = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 20px;
-  // text-align: center;
+  gap: 36px;
   z-index: 10;
   margin-top: 40px;
 
+  @media (min-width: 1080px) {
+    width: 50%;
+  }
+
   h2 {
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: -1px;
     color: #ffffff;
     font-weight: 700;
+    text-align: justify;
   }
 `;
 
@@ -88,13 +85,25 @@ export const StyledYoutube = styled.div`
 
   img {
     max-width: 720px;
-    width: 90%;
+    width: 100%;
     border-radius: 20px;
   }
 `;
 
 export const TypingText = styled.span`
   display: inline-block;
+`;
+
+const bounceAnimation = keyframes`
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 `;
 
 export const LogoFixed = styled.div`
@@ -104,6 +113,7 @@ export const LogoFixed = styled.div`
   background-color: grey;
   border-radius: 20px;
   padding: 10px;
+  cursor: pointer;
 
   img {
     width: 150px;
@@ -113,4 +123,6 @@ export const LogoFixed = styled.div`
   @media (max-width: 1200px) {
     display: none;
   }
+
+  animation: ${bounceAnimation} 0.5s infinite;
 `;

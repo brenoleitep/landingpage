@@ -7,6 +7,7 @@ import Percurso from "./components/Percurso";
 import logo from "./assets/logo.png";
 import { GlobalStyle } from "./styles/globalStyles";
 import { StyledMain } from "./styles/main";
+import Compartimentos from "./components/Compartimentos";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <LogoFixed>
           <img src={logo} alt="PPL" />
         </LogoFixed>
+        <Compartimentos />
       </StyledMain>
     </>
   );

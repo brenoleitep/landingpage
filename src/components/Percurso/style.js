@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const StyledPercursoDiv = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 36px;
+  height: 100vh;
+  position: relative;
 
   h2 {
     font-size: 35px;
@@ -58,7 +61,20 @@ export const StyledRocket = styled.div`
   /* border-radius: 5px; */
   background: linear-gradient(#030012, #354077, #354077, #030012);
   border-radius: 5px;
-  /* box-shadow: 1px 1px 1px 1px white; */
+  width: 90%;
+  max-width: 380px;
+
+  /* @media (min-width: 1080px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10px;
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(#030012, #354077, #354077, #030012);
+    border-radius: 5px;
+  } */
 `;
 
 export const StyledDivRocket = styled.div`
@@ -70,52 +86,16 @@ export const StyledDivRocket = styled.div`
   /* position: absolute; */
   top: 0px;
   left: 0px;
+
+  /* @media (min-width: 1080px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+  } */
 `;
-
-// export const StyledRocket2 = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   text-align: center;
-//   align-items: center;
-//   gap: 12px;
-//   /* position: absolute; */
-//   top: 0px;
-//   left: 0px;
-
-//   background: linear-gradient(#5d74ac, #5d74ac);
-
-//   padding: 10px;
-// `;
-
-// export const StyledRocket3 = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   text-align: center;
-//   align-items: center;
-//   gap: 12px;
-//   /* position: absolute; */
-//   top: 0px;
-//   left: 0px;
-
-//   background: linear-gradient(#5d74ac, #5d74ac);
-
-//   padding: 10px;
-// `;
-
-// export const StyledRocket4 = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   text-align: center;
-//   align-items: center;
-//   gap: 12px;
-//   /* position: absolute; */
-//   top: 0px;
-//   left: 0px;
-
-//   background: linear-gradient(#5d74ac, #c4b9d0);
-
-//   padding: 10px;
-// `;
 
 export const StyledLottiePercurso = styled.div`
   width: 70px;
@@ -130,4 +110,11 @@ export const StyledLottiePercurso = styled.div`
     height: 10px;
     width: 40px;
   }
+`;
+
+export const StyledAstronaut = styled.div`
+  right: 1px;
+  height: 800px;
+  position: absolute;
+  width: 800px;
 `;

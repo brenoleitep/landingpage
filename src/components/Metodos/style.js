@@ -5,7 +5,8 @@ export const StyledDivMetodos = styled.div`
   flex-direction: column;
   /* justify-content: center; */
   gap: 32px;
-  min-height: 50vw;
+  min-height: 100vh;
+  position: relative;
 
   h2 {
     font-size: 35px;
@@ -16,9 +17,12 @@ export const StyledDivMetodos = styled.div`
   }
 
   p {
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: lighter;
+    width: 100%;
+    max-width: 600px;
+    text-align: justify;
   }
 `;

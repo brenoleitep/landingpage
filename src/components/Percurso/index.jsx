@@ -9,9 +9,11 @@ import {
   StyledRocket,
   StyledDivRocket,
   StyledLottiePercurso,
+  StyledAstronaut,
 } from "./style";
-import rocket from "../Lotties/foguete.json";
-import seta from "../Lotties/setas.json";
+import progress from "../Lotties/progress.json";
+import seta from "../Lotties/setaDown.json";
+import setaDir from "../Lotties/rightseta.json";
 
 const Percurso = () => {
   return (
@@ -25,11 +27,9 @@ const Percurso = () => {
       }}
     >
       <StyledPercursoDiv>
-        <h2>O SEU PERCURSO DENTRO DO PPL </h2>
+        <h2 data-aos="fade-up">O SEU PERCURSO DENTRO DO PPL </h2>
 
         <StyledRocket>
-          {/* <Lottie animationData={rocket} /> */}
-
           <StyledDivRocket data-aos="fade-up">
             <StyledBorder>
               <h3> PASSO 1</h3>
@@ -42,10 +42,10 @@ const Percurso = () => {
             <p>
               CONSTRUÇÃO DOS ARGUMENTOS <br /> DE VENDAS
             </p>
-            <StyledLottiePercurso>
-              <Lottie animationData={seta} />
-            </StyledLottiePercurso>
           </StyledDivRocket>
+          <StyledLottiePercurso>
+            <Lottie animationData={seta} />
+          </StyledLottiePercurso>
 
           <StyledDivRocket data-aos="fade-up">
             <StyledBorder>
@@ -99,6 +99,9 @@ const Percurso = () => {
               TODOS OS DIAS
             </p>
           </StyledDivRocket>
+          {/* <StyledLottiePercurso>
+            <Lottie animationData={progress} />
+          </StyledLottiePercurso> */}
         </StyledRocket>
       </StyledPercursoDiv>
     </motion.div>

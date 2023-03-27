@@ -4,11 +4,13 @@ import background from "../../assets/background.png";
 export const StyledPassaporteDiv = styled.div`
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  position: relative;
   /* justify-content: center; */
 
   @media (min-width: 720px) {
     flex-direction: row;
-    height: 50vw;
+    max-height: 100vw;
   }
 `;
 
@@ -28,15 +30,32 @@ export const StyledDivPass = styled.div`
   }
 
   p {
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: lighter;
+    width: 100%;
+    max-width: 600px;
+    text-align: justify;
   }
 `;
 
 export const StyledLottiePass = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  /* min-width: 50vw; */
-  z-index: 0;
+  right: 10px;
+  width: 500px;
+  height: 800px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
