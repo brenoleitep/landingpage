@@ -15,7 +15,7 @@ import {
 import youtube from "../../assets/youtube.jpg";
 import logo from "../../assets/logo.png";
 import Texts from "../Texts";
-import rocket from "../Lotties/spacerocket.json";
+import rocket from "../Lotties/mkt.json";
 
 const Introducao = () => {
   // const text = "Olá, seja bem-vindo ao PPL";
@@ -40,7 +40,7 @@ const Introducao = () => {
           </StyledLogo>
 
           <StyledLotties>
-            {/* <Lottie animationData={rocket} /> */}
+            <Lottie animationData={rocket} />
           </StyledLotties>
 
           <h2 data-aos="fade-up">

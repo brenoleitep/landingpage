@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const StyledPercursoDiv = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 36px;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 
   h2 {

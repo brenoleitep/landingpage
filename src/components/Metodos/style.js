@@ -26,3 +26,23 @@ export const StyledDivMetodos = styled.div`
     text-align: justify;
   }
 `;
+
+export const StyledLottieMetodo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  width: 50%;
+  height: 800px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+`;

@@ -1,7 +1,9 @@
-import { StyledDivMetodos } from "./style";
+import { StyledDivMetodos, StyledLottieMetodo } from "./style";
 import AOS from "aos";
 import { motion } from "framer-motion";
 import "aos/dist/aos.css";
+import Lottie from "lottie-react";
+import astronaut from "../Lotties/laptop.json";
 
 const Metodos = () => {
   return (
@@ -36,6 +38,10 @@ const Metodos = () => {
           não precisar ter que ficar na frente do computador para ganhar
           dinheiro.
         </p>
+
+        <StyledLottieMetodo>
+          <Lottie animationData={astronaut} />
+        </StyledLottieMetodo>
       </StyledDivMetodos>
     </motion.div>
   );

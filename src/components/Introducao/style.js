@@ -60,6 +60,10 @@ export const StyledLottie = styled.div`
   justify-content: flex-end;
   bottom: -40px;
   z-index: 0;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const StyledLogo = styled.div`
@@ -72,10 +76,13 @@ export const StyledLogo = styled.div`
 export const StyledLotties = styled.div`
   display: flex;
   position: absolute;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
   top: 10px;
   z-index: 0;
+  width: 50%;
+  right: 0px;
+  height: 100%;
 `;
 
 export const StyledYoutube = styled.div`
