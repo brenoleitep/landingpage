@@ -11,7 +11,7 @@ export const StyledDepoimentos = styled.div`
 
   h2 {
     font-size: 35px;
-    color: #0046c7;
+    color: white;
     font-weight: 700;
   }
 

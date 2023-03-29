@@ -10,8 +10,9 @@ import {
   StyledDivRocket,
   StyledLottiePercurso,
   StyledAstronaut,
+  StyledPhone,
 } from "./style";
-import progress from "../Lotties/progress.json";
+import phone from "../Lotties/phone3.json";
 import seta from "../Lotties/setaDown.json";
 import setaDir from "../Lotties/rightseta.json";
 
@@ -29,6 +30,9 @@ const Percurso = () => {
       <StyledPercursoDiv>
         <h2 data-aos="fade-up">O SEU PERCURSO DENTRO DO PPL </h2>
 
+        <StyledPhone>
+          <Lottie animationData={phone} />
+        </StyledPhone>
         <StyledRocket>
           <StyledDivRocket data-aos="fade-up">
             <StyledBorder>

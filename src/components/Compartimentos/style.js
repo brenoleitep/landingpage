@@ -5,6 +5,7 @@ export const StyledCompartimentos = styled.div`
   flex-direction: column;
   color: white;
   gap: 34px;
+  min-height: 100vh;
 
   h2 {
     font-size: 35px;

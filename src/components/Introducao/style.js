@@ -121,7 +121,7 @@ export const LogoFixed = styled.div`
   position: fixed;
   right: 30px;
   bottom: 20px;
-  background-color: grey;
+  background-color: #0046c7;
   border-radius: 20px;
   padding: 10px;
   cursor: pointer;
