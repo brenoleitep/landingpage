@@ -87,7 +87,7 @@ const Compartimentos = () => {
       <StyledDiv data-aos="fade-up">
         <div>
           <FcTodoList />
-          <h3>VENDA TODO DIA</h3>
+          <h3>VENDA TODOs OS DIAS</h3>
         </div>
 
         <p>
