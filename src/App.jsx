@@ -8,6 +8,7 @@ import logo from "./assets/logo.png";
 import { GlobalStyle } from "./styles/globalStyles";
 import { StyledMain } from "./styles/main";
 import Compartimentos from "./components/Compartimentos";
+import Bonus from "./components/Bonus";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <img src={logo} alt="PPL" />
         </LogoFixed>
         <Compartimentos />
+        <Bonus />
       </StyledMain>
     </>
   );
