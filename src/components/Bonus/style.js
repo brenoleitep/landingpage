@@ -43,7 +43,16 @@ export const StyledDivBonus = styled.div`
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 20px;
+
+    @media (max-width: 1080px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      li {
+        margin-top: 40px;
+      }
+    }
   }
 
   div {
