@@ -6,7 +6,7 @@ export const StyledPassaporteDiv = styled.div`
   flex-direction: column;
   min-height: 100vh;
   position: relative;
-  /* justify-content: center; */
+  margin-top: 40px;
 
   @media (min-width: 720px) {
     flex-direction: row;
@@ -20,6 +20,12 @@ export const StyledDivPass = styled.div`
   position: relative;
   gap: 32px;
   z-index: 10;
+
+  @media (max-width: 1080px) {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 
   h2 {
     font-size: 35px;
