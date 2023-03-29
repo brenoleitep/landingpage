@@ -21,7 +21,7 @@ const Metodos = () => {
         <h2 data-aos="fade-up">
           VOCÊ PRECISA FUGIR DOS MÉTODOS ATUAIS,{" "}
           <TextBlue> ELES SÃO ARRISCADOS </TextBlue> E PARA COLOCAR EM PRÁTICA
-          VOCÊ VAI PENSAR CONTRATAR UMA EQUIPE.
+          VOCÊ VAI PRECISAR CONTRATAR UMA EQUIPE.
         </h2>
 
         <p data-aos="fade-up">
