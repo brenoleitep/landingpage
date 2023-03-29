@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion } from "framer-motion";
+import { TextBlue } from "../Compartimentos/style";
 
 const Passaporte = () => {
   return (
@@ -21,8 +22,9 @@ const Passaporte = () => {
       <StyledPassaporteDiv>
         <StyledDivPass>
           <h2 data-aos="fade-up">
-            O PASSAPORTE QUE VAI FAZER VOCÊ VIVER DE UMA VEZ POR TODAS DO
-            MERCADO DIGITAL
+            O PASSAPORTE QUE VAI FAZER{" "}
+            <TextBlue> VOCÊ VIVER DE UMA VEZ POR TODAS</TextBlue> DO MERCADO
+            DIGITAL
           </h2>
 
           <p data-aos="fade-in">

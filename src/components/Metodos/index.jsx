@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import "aos/dist/aos.css";
 import Lottie from "lottie-react";
 import astronaut from "../Lotties/laptop.json";
+import { TextBlue } from "../Compartimentos/style";
 
 const Metodos = () => {
   return (
@@ -18,8 +19,9 @@ const Metodos = () => {
     >
       <StyledDivMetodos>
         <h2 data-aos="fade-up">
-          VOCÊ PRECISA FUGIR DOS MÉTODOS ATUAIS, ELES SÃO ARRISCADOS E PARA
-          COLOCAR EM PRÁTICA VOCÊ VAI PENSAR CONTRATAR UMA EQUIPE.
+          VOCÊ PRECISA FUGIR DOS MÉTODOS ATUAIS,{" "}
+          <TextBlue> ELES SÃO ARRISCADOS </TextBlue> E PARA COLOCAR EM PRÁTICA
+          VOCÊ VAI PENSAR CONTRATAR UMA EQUIPE.
         </h2>
 
         <p data-aos="fade-up">

@@ -24,7 +24,7 @@ export const StyledDivPass = styled.div`
   h2 {
     font-size: 35px;
     letter-spacing: -1px;
-    color: #0046c7;
+    color: white;
     font-weight: 700;
     text-align: center;
   }

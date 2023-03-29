@@ -1,4 +1,9 @@
-import { StyledCompartimentos, StyledDiv, StyledLottieComp } from "./style";
+import {
+  StyledCompartimentos,
+  StyledDiv,
+  StyledLottieComp,
+  TextBlue,
+} from "./style";
 import { FcAnswers } from "react-icons/fc";
 import { FcCurrencyExchange } from "react-icons/fc";
 import { FcStatistics, FcTodoList } from "react-icons/fc";
@@ -11,7 +16,9 @@ import { motion } from "framer-motion";
 const Compartimentos = () => {
   return (
     <StyledCompartimentos>
-      <h2 data-aos="fade-up">CONHEÇA OS COMPARTIMENTOS DO NOSSO FOGUETE</h2>
+      <h2 data-aos="fade-up">
+        CONHEÇA OS COMPARTIMENTOS DO <TextBlue>NOSSO FOGUETE</TextBlue>{" "}
+      </h2>
 
       <StyledDiv data-aos="fade-up">
         <div>

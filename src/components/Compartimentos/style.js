@@ -5,12 +5,11 @@ export const StyledCompartimentos = styled.div`
   flex-direction: column;
   color: white;
   gap: 34px;
-  /* height: 100vh; */
 
   h2 {
     font-size: 35px;
     letter-spacing: -1px;
-    color: #0046c7;
+    color: white;
     font-weight: 700;
     text-align: center;
     z-index: 10;
@@ -44,6 +43,10 @@ export const StyledDiv = styled.div`
     gap: 10px;
     max-width: 220px;
   }
+`;
+
+export const TextBlue = styled.span`
+  color: #0046c7;
 `;
 
 export const StyledLottieComp = styled.div`
