@@ -8,6 +8,12 @@ export const StyledDivMetodos = styled.div`
   min-height: 100vh;
   position: relative;
 
+  @media (max-width: 1080px) {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
   h2 {
     font-size: 35px;
     letter-spacing: -1px;
