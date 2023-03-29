@@ -91,7 +91,7 @@ const Compartimentos = () => {
         </div>
 
         <p>
-          Com sua base toda estruturada, vamos colocar em prática a estratégia
+          Com a sua base toda estruturada, vamos colocar em prática a estratégia
           para você vender todos os dias. Você vai fazer junto comigo. seguindo
           exatamente o que eu for passando e em apenas 24 horas sua primeira
           estratégia vai estar no ar, sem dor de cabeça, sem dúvidas e eu
