@@ -7,6 +7,12 @@ export const StyledCompartimentos = styled.div`
   gap: 34px;
   min-height: 100vh;
 
+  @media (max-width: 1080px) {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
   h2 {
     font-size: 35px;
     letter-spacing: -1px;
