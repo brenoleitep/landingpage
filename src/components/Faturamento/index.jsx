@@ -1,9 +1,16 @@
-import { LottieDivFaturamento, StyledDivFaturamento, TextGold } from "./style";
+import {
+  LottieDivFaturamento,
+  LottieDivMoney,
+  LottieDivMoney2,
+  StyledDivFaturamento,
+  TextGold,
+} from "./style";
 import Lottie from "lottie-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { motion } from "framer-motion";
 import laptop from "../Lotties/laptopmoney.json";
+import money from "../Lotties/moeda.json";
 
 const Faturamento = () => {
   return (
@@ -13,6 +20,13 @@ const Faturamento = () => {
         EM 2022
       </h2>
 
+      <LottieDivMoney>
+        <Lottie animationData={money} data-aos="fade-up" />
+      </LottieDivMoney>
+
+      <LottieDivMoney2>
+        <Lottie animationData={money} data-aos="fade-up" />
+      </LottieDivMoney2>
       <p data-aos="fade-up">
         Esse foi o faturamento que consegui em 2022 apenas em uma plataforma de
         vendas online, onde todo santo dia vendemos e toda semana uma explosão
