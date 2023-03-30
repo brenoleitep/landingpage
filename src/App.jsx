@@ -9,6 +9,7 @@ import { GlobalStyle } from "./styles/globalStyles";
 import { StyledMain } from "./styles/main";
 import Compartimentos from "./components/Compartimentos";
 import Bonus from "./components/Bonus";
+import Faturamento from "./components/Faturamento";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         </LogoFixed>
         <Compartimentos />
         <Bonus />
+        <Faturamento />
       </StyledMain>
     </>
   );
