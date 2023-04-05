@@ -20,13 +20,13 @@ const Faturamento = () => {
         EM 2022
       </h2>
 
-      <LottieDivMoney>
+      {/* <LottieDivMoney>
         <Lottie animationData={money} data-aos="fade-up" />
       </LottieDivMoney>
 
       <LottieDivMoney2>
         <Lottie animationData={money} data-aos="fade-up" />
-      </LottieDivMoney2>
+      </LottieDivMoney2> */}
       <p data-aos="fade-up">
         Esse foi o faturamento que consegui em 2022 apenas em uma plataforma de
         vendas online, onde todo santo dia vendemos e toda semana uma explosão
