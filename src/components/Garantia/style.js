@@ -29,6 +29,10 @@ export const StyledGarantia = styled.div`
     justify-content: center;
     gap: 30px;
     width: 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   h2 {
@@ -45,12 +49,12 @@ export const StyledGarantia = styled.div`
     letter-spacing: 1px;
     color: white;
     font-weight: lighter;
-    width: 100%;
     text-align: center;
   }
 
   img {
     width: 90%;
+    max-width: 360px;
     animation: ${rotate360} 30s linear infinite;
   }
 `;
