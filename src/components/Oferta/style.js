@@ -121,4 +121,8 @@ export const StyledDivisor = styled.div`
 
 export const LottieDivOferta = styled.div`
   width: 50%;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
