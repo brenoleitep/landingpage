@@ -19,7 +19,7 @@ time, mark, audio, video {
 	border: 0;
 	box-sizing: border-box;
 	vertical-align: baseline;
-	font-family: "Inter", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
