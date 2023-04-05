@@ -12,6 +12,7 @@ import Bonus from "./components/Bonus";
 import Faturamento from "./components/Faturamento";
 import Oferta from "./components/Oferta";
 import Garantia from "./components/Garantia";
+import Mentor from "./components/Mentor";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Faturamento />
         <Oferta />
         <Garantia />
+        <Mentor />
       </StyledMain>
     </>
   );

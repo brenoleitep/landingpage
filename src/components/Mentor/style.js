@@ -1,16 +1,6 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-const rotate360 = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
-export const StyledGarantia = styled.div`
+export const StyledMentor = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,8 +43,7 @@ export const StyledGarantia = styled.div`
   }
 
   img {
-    width: 90%;
-    max-width: 360px;
-    animation: ${rotate360} 30s linear infinite;
+    width: 50%;
+    /* max-width: 360px; */
   }
 `;
